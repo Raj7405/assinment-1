@@ -1,23 +1,61 @@
-# Product Explorer — Starter
+# Product Explorer
 
-The full brief is in **[`ASSIGNMENT.md`](./ASSIGNMENT.md)** — read it first.
+A small product-browsing application built as part of the Frontend Assessment – Level 1 (Junior).
 
-This app **runs, but is intentionally incomplete and contains several bugs.**
-Your job is to find and fix the bugs and complete the two `TODO(candidate)` features.
+The application allows users to browse products, search by title, filter products by category, and view detailed product information.
 
-## Quick start
+## Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Fake Store API
+
+## Features
+
+- Responsive product grid
+  - 1 column on mobile
+  - 2 columns on tablet
+  - 3 columns on desktop
+- Search products by title
+- Category filtering
+- Search and category filters work together
+- Case-insensitive search
+- Product detail modal
+- Smooth modal open/close animation using Framer Motion
+- Loading state
+- Error state when the API request fails
+- Responsive UI using Tailwind CSS
+
+## API
+
+Product data is fetched from the Fake Store API:
+
+https://fakestoreapi.com/products
+
+No authentication is required.
+
+## Requirements
+
+- Node.js 18.17 or higher
+- npm
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Raj7405/assinment-1.git
+
+```
+
+
+### 2. Initialise Repo
 
 ```bash
 npm install
 npm run dev
+
 ```
 
-Open http://localhost:3000. (Node 18.17+.)
-
-Find the two features you need to complete:
-
-```bash
-grep -rn "TODO(candidate)" src/
-```
-
-Fill in `NOTES.md` as you go, and commit in small, meaningful steps.
